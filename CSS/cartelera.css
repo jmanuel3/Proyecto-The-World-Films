@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  height: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+.caja {
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 10px;
+  margin: 10px;
+}
