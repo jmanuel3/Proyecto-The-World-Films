@@ -1,92 +1,57 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: poppins;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: url(../ASSETS/siqsi.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+/* FOOTER */
+footer {
+  position: relative;
+  bottom: 0px;
+  background: rgb(28, 72, 84);
+  background: linear-gradient(
+    0deg,
+    rgb(179, 182, 6) 0%,
+    rgba(157, 106, 3, 0) 72%
+  );
+  .footer1 {
+    .rotacion-imagen-imagen {
+      width: 200px;
 
-.cuadrado {
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(2px);
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.442);
-
-  color: white;
-
-  & h2 {
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
+      animation: rotacion-imagen-imagen 5s infinite linear; /* Seg: para la velocidad de giro / infinite linear para el giro continuo  */
+      animation-delay: 1s;
+    }
+    .footer-redes {
+      svg {
+        margin: 3px;
+        height: 50px;
+        color: rgb(0, 0, 0);
+      }
+    }
+    .footer-secciones {
+      ul {
+        li {
+          list-style: none;
+          a {
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+          }
+        }
+      }
+    }
   }
-}
-/* BOTONES */
-.botones {
-  margin-top: 8vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.ia {
-  width: 35%;
-  height: 45px;
-  border-radius: 25px;
-  border: none;
-}
-
-.re {
-  width: 35%;
-  height: 45px;
-  border-radius: 25px;
-  border: none;
-  outline: none;
-}
-
-.ia:hover {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.re:hover {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-/* Crear cuenta */
-.crear-cuenta {
-  position: sticky;
-  margin-top: 10vh;
-  display: flex;
-  justify-content: center;
-}
-
-.crear-cuenta {
-  font-size: small;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  & a {
-    text-decoration: none;
-    color: yellow;
+  .footer2 {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
   }
 }
 
-@media (max-widht: 800px) {
-  .cuadrado {
-    size-adjust: initial;
+@keyframes rotacion-imagen-imagen {
+  00% {
+    transform: rotatey(0deg);
   }
-}
-
-@media (min-widht: 600px) {
+  50% {
+    transform: rotatey(20deg);
+  }
 }
