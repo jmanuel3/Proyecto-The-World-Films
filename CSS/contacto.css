@@ -1,28 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   display: block;
-  background-color: aquamarine;
-}
+  .contacto {
+    img {
+      width: 100px;
+    }
 
-.container {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(
-    180deg,
-    rgb(179, 182, 6) 0%,
-    rgba(157, 106, 3, 0) 72%
-  );
-}
-
-main {
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    main {
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height: 100vh;
+      background: linear-gradient(
+        180deg,
+        rgb(193, 194, 169) 0%,
+        rgba(157, 106, 3, 0) 72%
+      );
+    }
+  }
 }
