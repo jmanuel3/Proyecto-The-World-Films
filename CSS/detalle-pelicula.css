@@ -1,4 +1,15 @@
 /* PELICULA */
+main {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  background: linear-gradient(
+    180deg,
+    rgb(193, 194, 169) 0%,
+    rgba(157, 106, 3, 0) 72%
+  );
+}
 .iframe-container {
   position: relative;
   width: 100%;

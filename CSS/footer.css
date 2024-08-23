@@ -1,6 +1,6 @@
 footer {
-  position: relative;
-  bottom: 0px;
+  position: absolute;
+  width: 100%;
   background: rgb(28, 72, 84);
   background: linear-gradient(
     0deg,
