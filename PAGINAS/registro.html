@@ -17,41 +17,53 @@
 
   <body>
     <header>
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <button class="btn btn-outline-success" type="submit">Prueba Gratis</button>
-          </form>
-        </div>
-      </nav>
+      <nav class="navbar-bg-body-tertiary">
+        <div class="navbar-content">
+          <h1 class="title">Registro</h1>
+          <div class="logo-container">
+            <a href="./registro.html">
+              <img
+                class="logo"
+                src="../ASSETS/LOGO TWF.png"
+                alt="icono-twf"
+                width="150"
+              />
+            </a>
+          </div>
+          <div class="button-container">
+            <form class="d-flex" role="search">
+              <button class="btn-btn-outline-success" type="submit">
+                <a href="./prueba-gratis.html">Prueba Gratis</a>
+              </button>
+            </form>
+          </div>
         </div>
       </nav>
     </header>
     <main>
-      <h1>registro</h1>
       <form>
         <div class="mb-3">
-          <label for="exampleInputName1" class="form-label">Nombre</label>
+          <label for="exampleInputNombre" class="form-label">Nombre</label>
           <input
             type="name"
             class="form-control"
-            id="exampleInputName1"
+            id="exampleInputNombre"
             required
             minlength="3"
             maxlength="20"
-            pattern="[a-z]"
+            pattern="[A-Za-zÀ-ÿ]+"
           />
         </div>
         <div class="mb-3">
-          <label for="exampleInputName1" class="form-label">Apellido</label>
+          <label for="exampleInputApellido" class="form-label">Apellido</label>
           <input
             type="name"
             class="form-control"
-            id="exampleInputName1"
+            id="exampleInputApellido"
             required
             minlength="3"
             maxlength="20"
-            pattern="[a-z]"
+            pattern="[A-Za-zÀ-ÿ]+"
           />
         </div>
         <div class="mb-3">
