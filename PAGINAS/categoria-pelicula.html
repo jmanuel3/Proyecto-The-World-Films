@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/categoria-pelicula.css" />
+    <link rel="stylesheet" href="../CSS/navbar-cartelera.css">
     <link rel="stylesheet" href="../CSS/footer.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -13,11 +15,97 @@
 
     <title></title>
   </head>
-
+  <header>
+    <nav>
+      <div class="container">
+        <a href="inicio" class="logo">
+          <img src="imagenes/ICONO.png" alt="" />
+        </a>
+        <div class="titulo">
+          <h1>Cartelera</h1>
+        </div>
+        <div>
+          <div class="perfil">
+            <button>Perfil</button>
+        </div>
+      <form>
+        <div class="search-wrapper">
+          <input
+            type="search"
+            id="search"
+            name="search"
+            placeholder="Buscar pelicula..."
+          />
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg>
+          </button>
+        </div>
+      </form>
+    </nav>
+  </header>
   <body>
-    <header></header>
-    <main>
-      <h1>categoria-pelicula</h1>
+    <main class="container">
+      <section class="category-title">
+        <h2>Peliculas de Accion</h2>
+      </section>
+
+      <section class="movie-list">
+        <article class="movie-item">
+          <img
+            src="../ASSETS/img categoria pelicula/logobadboys.jpg"
+            alt="accion1"
+          />
+          <h3>Bad Boys</h3>
+          <p>
+            Dos policías de Miami sólo tienen 72 horas para encontrar cien
+            millones de dólares en heroína robados del almacén de pruebas de su
+            propia comisaría.
+          </p>
+          <button>Ver Pelicula</button>
+        </article>
+
+        <article class="movie-item">
+          <img
+            src="../ASSETS/img categoria pelicula/ryflogo.jpeg"
+            alt="accion2"
+          />
+          <h3>Rapidos y Furiosos 8</h3>
+          <p>
+            Con Dom y Letty de luna de miel, Brian y Mia retirados y el resto de
+            la pandilla viviendo en paz, parece que todo está tranquilo.
+          </p>
+          <button>Ver Pelicula</button>
+        </article>
+
+        <article class="movie-item">
+          <img
+            src="../ASSETS/img categoria pelicula/jackpotlogo.jpeg"
+            alt="accion3"
+          />
+          <h3>Jackpot Loteria mortal</h3>
+          <p>
+            En un futuro próximo, una Gran Lotería se ha establecido en
+            California.Si el ganador es asesinado antes de la puesta del sol, es
+            posible reclamar legalmente su premio multimillonario.
+          </p>
+          <button>Ver Pelicula</button>
+        </article>
+        <article class="movie-item">
+          <img
+            src="../ASSETS/img categoria pelicula/avesdepresalogo.jpeg"
+            alt="accion4"
+          />
+          <h3>Aves de presa</h3>
+          <p>
+            Harley Quinn y otras tres heroínas, Canario Negro, Cazadora y Renée
+            Montoya, unen sus fuerzas para salvar a una niña del malvado rey del
+            crimen Máscara Negra.
+          </p>
+          <button>Ver Pelicula</button>
+        </article>
+      </section>
     </main>
     <footer>
       <section class="footer1 d-flex justify-content-around align-items-center">
