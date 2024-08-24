@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: linear-gradient(
+    10deg,
+    rgb(179, 182, 6) 0%,
+    rgba(157, 106, 3, 0) 72%
+  );
+}
+nav img {
+  width: 100px;
+}

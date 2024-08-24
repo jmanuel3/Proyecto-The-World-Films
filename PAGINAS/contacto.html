@@ -26,7 +26,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="../CSS/navbar-contacto.css" />
     <link
       rel="stylesheet"
       href="../CSS/footer.css
@@ -35,8 +35,76 @@
     <link rel="stylesheet" href="../CSS/contacto.css" />
   </head>
 
-  <body style="background-color: aquamarine">
-    <header></header>
+  <body style="background-color: white">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-dark justify-content-end">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">
+            <img src="../ASSETS/LOGO TWF.png" alt="logo TWF" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cartelera.html">Cartelera</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Iniciar sesión/Registrarse
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./iniciar-sesion.html"
+                      >Iniciar sesión</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./registro.html"
+                      >Registrarse</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="¿Qué buscas...?"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main class="container my-5">
       <h1 class="text-center mb-5">Contacto</h1>
 
