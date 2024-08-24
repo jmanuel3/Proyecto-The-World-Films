@@ -4,15 +4,35 @@
 }
 body {
   main {
-    img {
-      height: 700px;
-      object-fit: cover;
-      object-position: center;
+    .main1 {
+      img {
+        height: 700px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .caja {
+        background-color: rgba(0, 0, 0, 0.74);
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .btn {
+        a {
+          color: black;
+          text-decoration: none;
+          list-style: none;
+        }
+      }
     }
-    .caja {
-      background-color: rgba(0, 0, 0, 0.74);
+    .cards1 {
+      padding: 20px;
       border-radius: 10px;
-      margin: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      background: linear-gradient(
+        180deg,
+        rgb(193, 194, 169) 0%,
+        rgba(157, 106, 3, 0) 72%
+      );
     }
   }
 }
