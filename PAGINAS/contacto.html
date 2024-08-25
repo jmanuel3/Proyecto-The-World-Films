@@ -16,8 +16,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="../CSS/navbar-cartelera.css">
   <link rel="stylesheet" href="../CSS/contacto.css">
-  <link rel="stylesheet" href="../CSS/footer.css
-    " />
+
+
 </head>
 
 <body style="">
@@ -83,80 +83,79 @@
     </section>
   </header>
   <!-- MAIN ------------------------------------------------------------------------------>
-  <main class="main-1 container my-5">
-    <div class="contacto-1 d-flex justify-content-center align-items-center m-5">
-      <img src="../ASSETS/LOGO TWF.png" alt="">
-      <h1>Contacto</h1>
-    </div>
-    <!-- Formulario -->
-    <form class="row g-3">
-      <!-- Nombre -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="form-floating">
-          <input type="text" class="form-control" id="floatingName" placeholder="Nombre" required minlength="2"
-            maxlength="30" title="El nombre debe tener entre 2 y 30 caracteres." />
-          <label for="floatingName">Nombre</label>
+  <main>
+    <section class="contacto rounded-4">
+      <section>
+        <div class="contacto-1 ">
+          <img src="../ASSETS/LOGO TWF.png" alt="">
+          <h1>Contacto</h1>
         </div>
-      </div>
-
-      <!-- Dirección de correo -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="form-floating">
-          <input type="email" class="form-control" id="floatingEmail" placeholder="Dirección de correo" required
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-            title="El correo debe tener un formato como: usuario@dominio.com" />
-          <label for="floatingEmail">Dirección de correo</label>
-        </div>
-      </div>
-
-      <!-- Teléfono -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="form-floating">
-          <input type="tel" class="form-control" id="floatingPhone" placeholder="Teléfono" required inputmode="numeric"
-            pattern="[0-9]*" maxlength="10" title="El teléfono debe tener 10 dígitos." />
-          <label for="floatingPhone">Teléfono</label>
-        </div>
-      </div>
-
-      <!-- Comentarios -->
-      <div class="col-12">
-        <div class="form-floating">
-          <textarea class="form-control" placeholder="Deje aquí su comentario" id="floatingTextarea2"
-            style="height: 100px" required maxlength="350"></textarea>
-          <label for="floatingTextarea2">Comentarios</label>
-        </div>
-      </div>
-
-      <!-- Adjuntar archivos -->
-      <div class="col-12">
-        <div class="mb-3">
-          <label for="formFile" class="form-label">Adjuntar archivo</label>
-          <input class="form-control" type="file" id="formFile" />
-        </div>
-      </div>
-
-      <!-- Aceptar términos y condiciones -->
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck3"
-            aria-describedby="invalidCheck3Feedback" required />
-          <label class="form-check-label" for="invalidCheck3">
-            Aceptas los términos y condiciones.
-          </label>
-          <div id="invalidCheck3Feedback" class="invalid-feedback">
-            Debes aceptar los términos antes de enviar.
+      </section>
+      <!-- Formulario -->
+      <section>
+        <form class="row g-3">
+          <!-- Nombre -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingName" placeholder="Nombre" required minlength="2"
+                maxlength="30" title="El nombre debe tener entre 2 y 30 caracteres." />
+              <label for="floatingName">Nombre</label>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <!-- Botón de envío -->
-      <div class="col-12 text-center">
-        <button class="btn btn-secondary btn-lg" type="submit">Enviar</button>
-      </div>
-    </form>
+          <!-- Dirección de correo -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingEmail" placeholder="Dirección de correo" required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="El correo debe tener un formato como: usuario@dominio.com" />
+              <label for="floatingEmail">Dirección de correo</label>
+            </div>
+          </div>
+          <!-- Teléfono -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="form-floating">
+              <input type="tel" class="form-control" id="floatingPhone" placeholder="Teléfono" required
+                inputmode="numeric" pattern="[0-9]*" maxlength="10" title="El teléfono debe tener 10 dígitos." />
+              <label for="floatingPhone">Teléfono</label>
+            </div>
+          </div>
+          <!-- Comentarios -->
+          <div class="col-12">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Deje aquí su comentario" id="floatingTextarea2"
+                style="height: 100px" required maxlength="350"></textarea>
+              <label for="floatingTextarea2">Comentarios</label>
+            </div>
+          </div>
+          <!-- Adjuntar archivos -->
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Adjuntar archivo</label>
+              <input class="form-control" type="file" id="formFile" />
+            </div>
+          </div>
+          <!-- Aceptar términos y condiciones -->
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck3"
+                aria-describedby="invalidCheck3Feedback" required />
+              <label class="form-check-label" for="invalidCheck3">
+                Aceptas los términos y condiciones.
+              </label>
+              <div id="invalidCheck3Feedback" class="invalid-feedback">
+                Debes aceptar los términos antes de enviar.
+              </div>
+            </div>
+          </div>
+          <!-- Botón de envío -->
+          <div class="col-12 text-center">
+            <button class="btn btn-secondary btn-lg" type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </section>
   </main>
 
-  <!-- FOOTER -->
   <footer>
     <section class="footer1 d-flex justify-content-around align-items-center">
       <div class="rotacion-imagen">
