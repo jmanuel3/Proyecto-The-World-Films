@@ -1,92 +1,33 @@
-main {
-  margin: 0;
-  padding: 0;
-  background: url("https://source.unsplash.com/random/1600x900") no-repeat
-    center center fixed;
-  background-size: cover;
+.main {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 606px;
-}
+  .login-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-.login-wrapper {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-.login-container {
-  width: 30%;
-  height: 60%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-  background: linear-gradient(
-    180deg,
-    rgb(193, 194, 169) 0%,
-    rgba(157, 106, 3, 0) 72%
-  );
-}
-
-.login-container h1 {
-  margin-bottom: 1.5rem;
-  font-size: 2rem;
-  text-align: center;
-  color: #000000;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-  color: #000000;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
-  border-radius: 50px;
-  box-sizing: border-box;
-  font-size: 15px;
-}
-
-.form-group input::placeholder {
-  color: #9b9b9b;
-}
-
-button {
-  width: 100%;
-  padding: 0.75rem;
-  border: none;
-  border-radius: 50px;
-  background-color: #515152;
-  color: #ffffff;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #6d6b6b;
-}
-
-.error-message {
-  display: none;
-  margin-top: 1rem;
-  padding: 0.75rem;
-  background-color: #f8d7da;
-  color: #721c24;
-  border: 1px solid #f5c6cb;
-  border-radius: 4px;
-  text-align: center;
+    background: linear-gradient(
+      180deg,
+      rgb(49, 216, 208) 0%,
+      rgba(157, 106, 3, 0) 72%
+    );
+  }
+  .error-message {
+    display: none;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
