@@ -13,135 +13,116 @@ body {
       border: 3px solid rgba(0, 0, 0, 0.692);
     }
   }
-}
 
-@media (max-width: 768px) {
-  nav .container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  nav h1 {
-    font-size: 1.5rem;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  nav ul li {
-    margin: 10px 0;
-  }
-}
-main {
-  display: flex;
-  justify-content: center;
-
-  .sobre-nosotros {
+  main {
     display: flex;
     justify-content: center;
-    width: 90%;
-    padding: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(
-      180deg,
-      rgb(193, 194, 169) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
-
-    display: flex;
-    flex-wrap: wrap;
-
-    .container-1 {
+    margin-top: 50px;
+    .sobre-nosotros {
       display: flex;
-      flex-direction: column;
       justify-content: center;
-      align-items: center;
-      width: 300px;
-    }
-    img {
-      width: 90%;
-    }
+      width: 95%;
+      padding: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(
+        180deg,
+        rgb(193, 194, 169) 0%,
+        rgba(157, 106, 3, 0) 72%
+      );
 
-    .container-2 {
-      text-align: center;
-      width: 1000px;
-      .integrante1 {
-        img {
-          width: 75px;
-        }
+      display: flex;
+      flex-wrap: wrap;
+
+      .container-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
       }
-      .integrante2 {
-        img {
-          width: 75px;
-        }
-      }
-      .integrante3 {
-        img {
-          width: 75px;
-        }
-      }
-      .integrante4 {
-        img {
-          width: 75px;
-        }
+      img {
+        width: 90%;
       }
 
-      .integrante5 {
-        img {
-          width: 75px;
+      .container-2 {
+        text-align: center;
+        width: 1000px;
+        .integrante1 {
+          img {
+            width: 75px;
+          }
         }
-      }
-    }
-  }
-}
-footer {
-  width: 100%;
-  background: rgb(28, 72, 84);
-  background: linear-gradient(
-    0deg,
-    rgb(193, 194, 169) 0%,
-    rgba(157, 106, 3, 0) 72%
-  );
-  .footer1 {
-    .rotacion-imagen-imagen {
-      width: 200px;
+        .integrante2 {
+          img {
+            width: 75px;
+          }
+        }
+        .integrante3 {
+          img {
+            width: 75px;
+          }
+        }
+        .integrante4 {
+          img {
+            width: 75px;
+          }
+        }
 
-      animation: rotacion-imagen-imagen 5s infinite linear; /* Seg: para la velocidad de giro / infinite linear para el giro continuo  */
-      animation-delay: 1s;
-    }
-    .footer-redes {
-      svg {
-        margin: 3px;
-        height: 50px;
-        color: rgb(0, 0, 0);
-      }
-    }
-    .footer-secciones {
-      ul {
-        li {
-          list-style: none;
-          a {
-            font-size: 20px;
-            text-decoration: none;
-            color: rgb(0, 0, 0);
+        .integrante5 {
+          img {
+            width: 75px;
           }
         }
       }
     }
   }
-  .footer2 {
-    color: rgb(0, 0, 0);
-    margin-right: 10px;
-  }
-}
+  footer {
+    width: 100%;
+    background: rgb(28, 72, 84);
+    background: linear-gradient(
+      0deg,
+      rgb(193, 194, 169) 0%,
+      rgba(157, 106, 3, 0) 72%
+    );
+    .footer1 {
+      .rotacion-imagen-imagen {
+        width: 200px;
 
-@keyframes rotacion-imagen-imagen {
-  00% {
-    transform: rotatey(0deg);
+        animation: rotacion-imagen-imagen 5s infinite linear; /* Seg: para la velocidad de giro / infinite linear para el giro continuo  */
+        animation-delay: 1s;
+      }
+      .footer-redes {
+        svg {
+          margin: 3px;
+          height: 50px;
+          color: rgb(0, 0, 0);
+        }
+      }
+      .footer-secciones {
+        ul {
+          li {
+            list-style: none;
+            a {
+              font-size: 20px;
+              text-decoration: none;
+              color: rgb(0, 0, 0);
+            }
+          }
+        }
+      }
+    }
+    .footer2 {
+      color: rgb(0, 0, 0);
+      margin-right: 10px;
+    }
   }
-  50% {
-    transform: rotatey(20deg);
+
+  @keyframes rotacion-imagen-imagen {
+    00% {
+      transform: rotatey(0deg);
+    }
+    50% {
+      transform: rotatey(20deg);
+    }
   }
 }
