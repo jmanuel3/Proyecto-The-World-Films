@@ -22,6 +22,9 @@ body {
       );
       .imput {
         width: 100%;
+        .boton {
+          width: 350px;
+        }
         .error-message {
           display: none;
           margin-top: 1rem;

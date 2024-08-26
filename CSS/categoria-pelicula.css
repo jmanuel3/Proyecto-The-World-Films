@@ -9,8 +9,10 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
-      .cards1 {
+      .paginas {
+        margin-bottom: 30px;
+      }
+      .titulo {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: 95%;
 
@@ -19,6 +21,21 @@ body {
         align-items: center;
         flex-wrap: wrap;
         margin: 50px 0px;
+        background: linear-gradient(
+          180deg,
+          rgb(186, 90, 206) 0%,
+          rgba(157, 106, 3, 0) 72%
+        );
+      }
+      .cards1 {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 95%;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
         background: linear-gradient(
           180deg,
           rgb(186, 90, 206) 0%,
@@ -46,11 +63,13 @@ body {
       }
 
       .banner {
-       
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 95%;
         }
       }
-    }
-    .page {
     }
   }
 }

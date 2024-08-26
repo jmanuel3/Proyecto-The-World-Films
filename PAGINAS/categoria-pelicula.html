@@ -18,7 +18,7 @@
     <section class="header1">
       <nav class="navbar fixed-top">
         <div class="container-fluid d-flex align-items-center justify-content-start m-3">
-          <a class="navbar-brand" href="#"><img src="../ASSETS/LOGO TWF.png" alt="" /></a>
+          <a class="navbar-brand" href="../index.html"><img src="../ASSETS/LOGO TWF.png" alt="logo" /></a>
           <button class="custom-navbar1 navbar-toggler" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" fill="currentColor" class="bi bi-card-list"
@@ -38,7 +38,7 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><b>Perfil</b></a>
+                  <a class="nav-link active" aria-current="page" href="./error-404.html"><b>Perfil</b></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./cartelera.html">Inicio</a>
@@ -86,19 +86,41 @@
 
   <main>
     <section class="peliculas">
-      <section class="cards1 rounded-4 ">
+      <section class="titulo rounded-4">
+        <h1>Drama</h1>
+      </section>
+
+      <section class="paginas d-flex justify-content-center">
+        <nav aria-label="page navigation ">
+          <ul class="pagination ">
+            <li class="page-item disabled">
+              <a class="page-link" href="./categoria-pelicula.html" tabindex="-1" aria-disabled="true">Anterior</a>
+            </li>
+            <li class="page-item disabled">
+              <a class="page-link text-info" href="./categoria-pelicula.html" tabindex="-1" aria-disabled="true">1</a>
+            </li>
+
+            <li class="page-item"><a class="page-link text-secondary-emphasis" href="./categoria-pelicula-2.html">2</a>
+            </li>
+            <li class="page-item"><a class="page-link text-secondary-emphasis" href="./error-404-gratis.html">3</a></li>
+            <li class="page-item">
+              <a class="page-link text-secondary-emphasis" href="./categoria-pelicula-2.html">Siguiente</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="cards1 rounded-4  ">
+
         <div class="card2 rounded-4">
           <img src="../ASSETS/img top 3/napoleon.jpg" class=" rounded-4" alt="banner napoleon" />
           <div class="card-body">
             <h5 class="card-title">Napoleon</h5>
             <p class="card-text">
-              "Intensamente" (2015)De Disney Pixar, sigue las emociones
-              personificadas de una niña llamada Riley mientras enfrenta la
-              difícil transición de mudarse a una nueva ciudad. Alegría y
-              Tristeza se embarcan en un viaje dentro de la mente de Riley para
-              restaurar el equilibrio emocional. La película destaca la
-              importancia de todas las emociones en el proceso de crecimiento y
-              adaptación...
+              Napoleon" (2023) es un drama histórico dirigido por Ridley Scott que explora la vida de Napoleón
+              Bonaparte. La película sigue su meteórico
+              ascenso al poder en Francia, sus victorias y derrotas en el campo de batalla, y su tumultuosa relación con
+              su esposa, Josefina...
             </p>
             <p class="card-text">
               <small class="text-body-secondary">Año: 2015 - Duracion: 95 minutos</small>
@@ -160,9 +182,11 @@
           </div>
         </div>
       </section>
+      <!-- ----------------------------------------------------------------------------------------------- -->
       <section class="banner "><img class="rounded-4" src="../ASSETS/img categoria pelicula 1/drama.webp"
           alt="banner de drama">
       </section>
+      <!-- ------------------------------------------------------------------------------------------------ -->
       <section class="cards1 rounded-4">
         <div class="card2 rounded-4">
           <img src="../ASSETS/img categoria pelicula 1/La lista de Schindler.jpg" class="rounded-4"
@@ -233,8 +257,8 @@
         </div>
       </section>
     </section>
-    <section>
-      <nav aria-label="page navigation d-flex justify-content-center">
+    <section class="d-flex justify-content-center">
+      <nav aria-label="page navigation ">
         <ul class="pagination ">
           <li class="page-item disabled">
             <a class="page-link" href="./categoria-pelicula.html" tabindex="-1" aria-disabled="true">Anterior</a>
@@ -252,7 +276,7 @@
         </ul>
       </nav>
     </section>
-    <!-- <footer>
+    <footer>
       <section class="footer1 d-flex justify-content-around align-items-center">
         <div class="rotacion-imagen">
           <img class="rotacion-imagen-imagen" src="../ASSETS/LOGO TWF.png" alt="" />
@@ -298,7 +322,7 @@
           © 2024-TWF The World Films, LLC. Todos los derechos reservados.
         </h6>
       </section>
-    </footer> -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
