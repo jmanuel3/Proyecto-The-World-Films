@@ -9,7 +9,7 @@ body {
       width: 100px;
     }
     .custom-navbar1 {
-      background-color: rgb(193, 194, 169);
+      background-color: rgb(164, 34, 190);
       border: 3px solid rgba(0, 0, 0, 0.692);
     }
   }
@@ -26,7 +26,7 @@ body {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       background: linear-gradient(
         180deg,
-        rgb(193, 194, 169) 0%,
+        rgb(186, 90, 206) 0%,
         rgba(157, 106, 3, 0) 72%
       );
 
@@ -81,7 +81,7 @@ body {
     background: rgb(28, 72, 84);
     background: linear-gradient(
       0deg,
-      rgb(193, 194, 169) 0%,
+      rgb(186, 90, 206) 0%,
       rgba(157, 106, 3, 0) 72%
     );
     .footer1 {

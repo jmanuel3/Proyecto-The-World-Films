@@ -1,18 +1,22 @@
-.main {
-  padding: 50px;
-  margin: 50px;
+main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 95%;
-  background: linear-gradient(
-    180deg,
-    rgb(49, 216, 208) 0%,
-    rgba(157, 106, 3, 0) 72%
-  );
-  img {
-    width: 100px;
+  .main {
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    background: linear-gradient(
+      180deg,
+      rgb(49, 216, 208) 0%,
+      rgba(157, 106, 3, 0) 72%
+    );
+    img {
+      width: 100px;
+    }
   }
 }

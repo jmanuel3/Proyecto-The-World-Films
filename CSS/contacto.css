@@ -17,7 +17,7 @@ body {
       width: 95%;
       background: linear-gradient(
         180deg,
-        rgb(193, 194, 169) 0%,
+        rgb(186, 90, 206) 0%,
         rgba(157, 106, 3, 0) 72%
       );
       img {
@@ -37,7 +37,7 @@ body {
     background: rgb(28, 72, 84);
     background: linear-gradient(
       0deg,
-      rgb(193, 194, 169) 0%,
+      rgb(186, 90, 206) 0%,
       rgba(157, 106, 3, 0) 72%
     );
     .footer1 {

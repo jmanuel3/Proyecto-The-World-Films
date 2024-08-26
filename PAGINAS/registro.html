@@ -75,77 +75,143 @@
     </section>
   </header>
   <main>
-    <section class="main">
+    <section class="main rounded-4">
+      <h1 class="m-5">Registro</h1>
+      <!-- planes -->
       <section class="planes">
+        <div class="container">
+          <div class="row">
+            <!-- Primera Card -->
+            <div class="col-md-4 gap-5">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Plan Local</h5>
+                  <p class="card-text">Con el Plan Local accede a todo el contenido disponible en tu país con calidad
+                    estándar.
+                    Ideal para quienes disfrutan de series y películas locales sin necesidad de explorar más allá de sus
+                    fronteras.</p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="cardOptions" id="option1" value="option1">
+                    <label class="form-check-label" for="option1">
+                      Contratar
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Segunda Card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Plan Regional</h5>
+                  <p class="card-text">Un amplio catálogo de varios países de tu región. Este plan
+                    te
+                    ofrece una mayor variedad de contenidos, con opciones en diferentes idiomas y géneros, manteniendo
+                    una
+                    conexión con la cultura regional.</p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="cardOptions" id="option2" value="option2">
+                    <label class="form-check-label" for="option2">
+                      Contratar
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tercera Card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Plan Mundial</h5>
+                  <p class="card-text">Nuestro catálogo global, de películas y documentales de todo el
+                    mundo en alta calidad, es el plan perfecto para los verdaderos amantes del cine que quieren
+                    explorar
+                    contenidos internacionales sin límites.</p>
+                  <div class="form-check">
+                    <input class="form-check-input " type="radio" name="cardOptions" id="option3" value="option3">
+                    <label class="form-check-label " for="option3">
+                      Contratar
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="registro">
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Nombre </label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Apellido</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Repetir Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Repetir Password</label>
-            <input type="password" class="form-control" id="inputPassword4">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Direccion</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Calle / Numero">
-          </div>
+      <!-- registro -->
+      <section class="main rounded-4">
+        <section class="planes">
+        </section>
+        <section class="registro">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Nombre </label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Apellido</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Repetir Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Repetir Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Direccion</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Calle / Numero">
+            </div>
 
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">De Donde Eres</label>
-            <select id="inputState" class="form-select">
-              <option selected>Pais</option>
-              <option>Argentina</option>
-              <option>Chile</option>
-              <option>Uruguay</option>
-              <option>Paraguay</option>
-              <option>Bolivia</option>
-              <option>Brasil</option>
-              <option>Colombia</option>
-              <option>Peru</option>
-              <option>Venezeula</option>
-              <option>Ecuador</option>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">De Donde Eres</label>
+              <select id="inputState" class="form-select">
+                <option selected>Pais</option>
+                <option>Argentina</option>
+                <option>Chile</option>
+                <option>Uruguay</option>
+                <option>Paraguay</option>
+                <option>Bolivia</option>
+                <option>Brasil</option>
+                <option>Colombia</option>
+                <option>Peru</option>
+                <option>Venezeula</option>
+                <option>Ecuador</option>
 
-            </select>
-          </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Codigo Postal</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
-          <div class="col-12">
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Registrarse</button>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
-          </div>
-        </form>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Codigo Postal</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+            </div>
+            <div class="botones d-flex justify-content-center col-12">
+              <button type="submit" class="btn btn-secondary btn-lg m-3">Registrarse</button>
+              <button type="submit" class="btn btn-secondary btn-lg m-3">Ingresar</button>
+            </div>
+          </form>
+        </section>
       </section>
-
     </section>
   </main>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <footer>
     <section class="footer1 d-flex justify-content-around align-items-center">
       <div class="rotacion-imagen"><a href="./registro.html"><img class="rotacion-imagen-imagen"
