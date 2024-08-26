@@ -1,8 +1,8 @@
 main {
   display: flex;
   justify-content: center;
-  .main {
-    padding: 50px;
+  .main1 {
+    padding: 15px;
     margin: 50px;
     display: flex;
     flex-direction: column;
