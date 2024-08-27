@@ -1,71 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-* {
+body,
+html {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: poppins;
-}
-
-body {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-position: center;
-  background: url(../ASSETS/img\ index/index.jpg);
-  background-size: cover;
-}
 
-.cuadrado {
-  border-radius: 15px;
-  backdrop-filter: blur(2px);
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.74);
+  body {
+    background: url(../ASSETS/img\ index/index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .caja {
+        width: 80%;
+        text-align: center;
+        padding: 1%;
+        backdrop-filter: blur(2px);
+        background-color: rgba(0, 0, 0, 0.87);
+        color: white;
+        .logo {
+          img {
+            width: 40%;
+            animation: rotacion-imagen-imagen 5s infinite linear;
+            animation-delay: 1s;
+          }
+        }
+        .botones1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 20px;
+          .botones2 {
+            margin: 5%;
+          }
+        }
+      }
 
-  color: white;
-
-  & h2 {
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-  }
-  .botones {
-    a {
-      color: antiquewhite;
-      text-decoration: none;
     }
   }
 }
-
-/* Crear cuenta */
-.crear-cuenta {
-  position: sticky;
-  margin-top: 10vh;
-  display: flex;
-  justify-content: center;
-}
-
-.crear-cuenta {
-  font-size: small;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  & a {
-    text-decoration: none;
-    color: yellow;
+@keyframes rotacion-imagen-imagen {
+  00% {
+    transform: rotatey(0deg);
   }
-}
-
-@media (max-widht: 800px) {
-  .cuadrado {
-    width: 50%;
-  }
-}
-
-@media (min-widht: 600px) {
-  .cuadrado {
-    width: 50%;
+  50% {
+    transform: rotatey(20deg);
   }
 }

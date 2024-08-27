@@ -1,4 +1,18 @@
 main {
+  .titulo {
+    width: 95%;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    background: linear-gradient(
+      180deg,
+      rgb(49, 216, 208) 0%,
+      rgba(157, 106, 3, 0) 72%
+    );
+  }
+
   .cards1 {
     padding: 20px;
     border-radius: 10px;
