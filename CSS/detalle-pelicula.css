@@ -6,15 +6,31 @@
 main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  .logo1 {
+    margin: 150px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo2 {
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 95%;
+      background-color: black;
+      img {
+        width: 30%;
+      }
+    }
+  }
   .main {
     width: 95%;
     margin-top: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(
-      180deg,
-      rgb(186, 90, 206) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
+    background-color: black;
     .container {
       margin-top: 80px;
       .container-1 {

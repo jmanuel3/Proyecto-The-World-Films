@@ -1,24 +1,19 @@
 footer {
   position: absolute;
   width: 100%;
-  background: rgb(28, 72, 84);
-  background: linear-gradient(
-    0deg,
-    rgb(186, 90, 206) 0%,
-    rgba(157, 106, 3, 0) 72%
-  );
+  background-color: black;
   .footer1 {
     .rotacion-imagen-imagen {
       width: 200px;
 
-      animation: rotacion-imagen-imagen 5s infinite linear; /* Seg: para la velocidad de giro / infinite linear para el giro continuo  */
+      animation: rotacion-imagen-imagen 5s infinite linear;
       animation-delay: 1s;
     }
     .footer-redes {
       svg {
         margin: 3px;
         height: 50px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
       }
     }
     .footer-secciones {
@@ -28,14 +23,14 @@ footer {
           a {
             font-size: 20px;
             text-decoration: none;
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
           }
         }
       }
     }
   }
   .footer2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-right: 10px;
   }
 }
@@ -48,56 +43,13 @@ footer {
     transform: rotatey(20deg);
   }
 }
-@media (min-width: 771px) {
-  footer {
-    position: absolute;
-    width: 100%;
-    background: rgb(28, 72, 84);
-    background: linear-gradient(
-      0deg,
-      rgb(186, 90, 206) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
-    .footer1 {
-      .rotacion-imagen-imagen {
-        width: 200px;
-
-        animation: rotacion-imagen-imagen 5s infinite linear; /* Seg: para la velocidad de giro / infinite linear para el giro continuo  */
-        animation-delay: 1s;
-      }
-      .footer-redes {
-        svg {
-          margin: 3px;
-          height: 50px;
-          color: rgb(0, 0, 0);
-        }
-      }
-      .footer-secciones {
-        ul {
-          li {
-            list-style: none;
-            a {
-              font-size: 20px;
-              text-decoration: none;
-              color: rgb(0, 0, 0);
-            }
-          }
-        }
-      }
-    }
-  }
-}
 @media (max-width: 770px) {
   footer {
     text-align: center;
     position: absolute;
     width: 100%;
     background: rgb(28, 72, 84);
-    background: linear-gradient(
-      0deg,
-      rgb(186, 90, 206) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
+    background-color: black;
     .footer1 {
       display: flex;
       flex-direction: column;
@@ -115,7 +67,7 @@ footer {
         svg {
           margin: 3px;
           height: 50px;
-          color: rgb(0, 0, 0);
+          color: rgb(255, 255, 255);
         }
       }
       .footer-secciones {
