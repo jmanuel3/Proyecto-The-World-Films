@@ -12,9 +12,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-size: cover;
   background-position: center;
   background: url(../ASSETS/img\ index/index.jpg);
+  background-size: cover;
 }
 
 .cuadrado {
@@ -31,36 +31,12 @@ body {
     text-align: center;
     padding: 10px;
   }
-}
-/* BOTONES */
-.botones {
-  margin-top: 8vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.ia {
-  width: 35%;
-  height: 45px;
-  border-radius: 25px;
-  border: none;
-}
-
-.re {
-  width: 35%;
-  height: 45px;
-  border-radius: 25px;
-  border: none;
-  outline: none;
-}
-
-.ia:hover {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.re:hover {
-  background: rgba(255, 255, 255, 0.5);
+  .botones {
+    a {
+      color: antiquewhite;
+      text-decoration: none;
+    }
+  }
 }
 
 /* Crear cuenta */
@@ -84,9 +60,12 @@ body {
 
 @media (max-widht: 800px) {
   .cuadrado {
-    size-adjust: initial;
+    width: 50%;
   }
 }
 
 @media (min-widht: 600px) {
+  .cuadrado {
+    width: 50%;
+  }
 }

@@ -4,15 +4,37 @@
 }
 body {
   main {
-    img {
-      height: 700px;
-      object-fit: cover;
-      object-position: center;
+    .main1 {
+      img {
+        height: 700px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .caja {
+        background: linear-gradient(
+          180deg,
+          rgb(0, 0, 0) 0%,
+          rgba(0, 0, 0, 0.377) 72%
+        );
+      }
+      .btn {
+        a {
+          color: black;
+          text-decoration: none;
+          list-style: none;
+        }
+      }
     }
-    .caja {
-      background-color: rgba(0, 0, 0, 0.74);
+    .cards1 {
+      padding: 20px;
       border-radius: 10px;
-      margin: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 95%;
+      background: linear-gradient(
+        180deg,
+        rgb(186, 90, 206) 0%,
+        rgba(157, 106, 3, 0) 72%
+      );
     }
   }
 }

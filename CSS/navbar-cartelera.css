@@ -1,0 +1,37 @@
+/* Header and Navbar Styles */
+body {
+  .navbar {
+    background: linear-gradient(
+      180deg,
+      rgb(0, 0, 0) 0%,
+      rgba(157, 106, 3, 0) 72%
+    );
+    img {
+      width: 100px;
+    }
+    .custom-navbar1 {
+      background-color: rgb(164, 34, 190);
+      border: 3px solid rgba(0, 0, 0, 0.692);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  nav .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
