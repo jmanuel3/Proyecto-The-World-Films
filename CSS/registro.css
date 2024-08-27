@@ -1,20 +1,31 @@
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+  .logo {
+    background-color: black;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    img {
+      width: 30%;
+    }
+  }
   .main1 {
     padding: 15px;
-    margin: 50px;
+    margin: 50px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 95%;
-    background: linear-gradient(
-      180deg,
-      rgb(49, 216, 208) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
+    background-color: black;
+    color: rgb(255, 255, 255);
     img {
       width: 100px;
     }

@@ -1,38 +1,30 @@
 main {
   .titulo {
     width: 95%;
-    margin-top: 50px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
 
-    background: linear-gradient(
-      180deg,
-      rgb(49, 216, 208) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    background-color: black;
+    img {
+      width: 50%;
+    }
   }
+  section {
+    margin: 50px 0px;
+    .cards1 {
+      width: 95%;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: black;
+      gap: 20px;
+    }
+    .cards2 {
+      width: 95%;
+      gap: 20px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-  .cards1 {
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-    background: linear-gradient(
-      180deg,
-      rgb(49, 216, 208) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
-  }
-  .cards2 {
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-    background: linear-gradient(
-      180deg,
-      rgb(49, 216, 208) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
+      background-color: black;
+    }
   }
 }

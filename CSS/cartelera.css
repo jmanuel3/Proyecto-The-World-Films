@@ -6,6 +6,7 @@ body {
   main {
     .main1 {
       img {
+        margin-top: 50px;
         height: 700px;
         object-fit: cover;
         object-position: center;
@@ -25,16 +26,29 @@ body {
         }
       }
     }
+    .logo1 {
+      margin: 50px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logo2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 95%;
+        background-color: black;
+        img {
+          width: 30%;
+        }
+      }
+    }
     .cards1 {
       padding: 20px;
-      border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       width: 95%;
-      background: linear-gradient(
-        180deg,
-        rgb(186, 90, 206) 0%,
-        rgba(157, 106, 3, 0) 72%
-      );
+      background-color: black;
+      margin-bottom: 50px;
     }
   }
 }
