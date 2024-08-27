@@ -48,3 +48,36 @@ footer {
     transform: rotatey(20deg);
   }
 }
+@media (max-width: 770px) {
+  footer {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    background: rgb(28, 72, 84);
+    background: linear-gradient(0deg, rgb(49, 216, 208), rgba(0, 0, 0, 0) 72%);
+    .footer1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .rotacion-imagen-imagen {
+        width: 200px;
+
+        animation: rotacion-imagen-imagen 5s infinite linear;
+        animation-delay: 1s;
+      }
+      .footer-redes {
+        margin: 20px;
+        svg {
+          margin: 3px;
+          height: 50px;
+          color: rgb(0, 0, 0);
+        }
+      }
+      .footer-secciones {
+        display: none;
+      }
+    }
+  }
+}
