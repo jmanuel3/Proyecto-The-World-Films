@@ -18,5 +18,11 @@ main {
     img {
       width: 100px;
     }
+    .planes {
+      .form-check {
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 }
