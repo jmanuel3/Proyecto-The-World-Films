@@ -6,6 +6,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+
   body {
     background: url(../ASSETS/img\ index/index.jpg);
     background-repeat: no-repeat;
@@ -24,7 +25,7 @@ html {
         .logo {
           img {
             width: 40%;
-            animation: rotacion-imagen-imagen 5s infinite linear; /* Seg: para la velocidad de giro / infinite linear para el giro continuo  */
+            animation: rotacion-imagen-imagen 5s infinite linear;
             animation-delay: 1s;
           }
         }
@@ -38,6 +39,7 @@ html {
           }
         }
       }
+
     }
   }
 }
