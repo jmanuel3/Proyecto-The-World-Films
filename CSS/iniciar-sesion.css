@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   .main {
     display: flex;
@@ -55,7 +59,7 @@ body {
       .rotacion-imagen-imagen {
         width: 200px;
 
-        animation: rotacion-imagen-imagen 5s infinite linear; /* Seg: para la velocidad de giro / infinite linear para el giro continuo  */
+        animation: rotacion-imagen-imagen 5s infinite linear;
         animation-delay: 1s;
       }
       .footer-redes {
