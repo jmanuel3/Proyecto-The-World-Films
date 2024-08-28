@@ -1,0 +1,51 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  body {
+    background: url(../ASSETS/img\ index/index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .caja {
+        width: 80%;
+        text-align: center;
+        padding: 1%;
+        backdrop-filter: blur(2px);
+        background-color: rgba(0, 0, 0, 0.87);
+        color: white;
+        .logo {
+          img {
+            width: 40%;
+            animation: rotacion-imagen-imagen 5s infinite linear;
+            animation-delay: 1s;
+          }
+        }
+        .botones1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 20px;
+          .botones2 {
+            margin: 5%;
+          }
+        }
+      }
+    }
+  }
+}
+@keyframes rotacion-imagen-imagen {
+  00% {
+    transform: rotatey(0deg);
+  }
+  50% {
+    transform: rotatey(20deg);
+  }
+}

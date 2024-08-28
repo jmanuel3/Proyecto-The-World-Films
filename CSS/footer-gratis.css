@@ -33,6 +33,7 @@ footer {
     margin-right: 10px;
   }
 }
+
 @keyframes rotacion-imagen-imagen {
   00% {
     transform: rotatey(0deg);

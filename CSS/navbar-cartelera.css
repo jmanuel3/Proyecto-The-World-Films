@@ -1,0 +1,36 @@
+body {
+  .header1 {
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.7);
+      img {
+        width: 70px;
+      }
+      .navbar2 {
+        margin: 0;
+        padding: 0;
+        .twf {
+          img {
+            width: 250px;
+          }
+        }
+        .custom-navbar1 {
+        }
+        .desplegable {
+          .nav-footer {
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 771px) {
+  .navbar {
+    .custom-navbar1 {
+    }
+    .desplegable {
+      .nav-footer {
+        display: none;
+      }
+    }
+  }
+}
