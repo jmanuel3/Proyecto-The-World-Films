@@ -2,34 +2,36 @@
 <html lang="es">
 
 <head>
+
   <meta charset="UTF-8" />
+  <meta name="author" content="Alumnos RollingCode" />
+  <meta name="description" content="Plataforma streaming gratuita donde ver clásicos" />
+  <meta name="keywords" content="Ver online, Streaming, TV, Peliculas gratis, Series gratis, Juego de tronos" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html" />
+
+  <link rel="shortcut icon" href="../ASSETS/LOGO TWF.png" type="image/x-icon" />
+
   <link rel="stylesheet" href="../CSS/navbar-cartelera.css" />
   <link rel="stylesheet" href="../CSS/categoria-pelicula.css" />
   <link rel="stylesheet" href="../CSS/footer.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-  <title>Cartelera</title>
+  <title>TwF - Drama</title>
 </head>
 
 <body>
   <header>
-    <section class="header1">
-      <nav class="navbar fixed-top">
-        <div class="container-fluid d-flex align-items-center justify-content-start m-3">
-          <a class="navbar-brand" href="../index.html"><img src="../ASSETS/LOGO TWF.png" alt="logo" /></a>
+    <section class="header1 fixed-top ">
+      <nav class="navbar  ">
+        <div class="navbar2 container-fluid d-flex align-items-center justify-content-between m-3 ">
           <button class="custom-navbar1 navbar-toggler" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" fill="currentColor" class="bi bi-card-list"
-              viewBox="0 0 16 16">
-              <path
-                d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z" />
-              <path
-                d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8m0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
-            </svg>
+            <img src="../ASSETS/LOGO TWF.png" alt="logo">
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          <div class="twf"><img src="../ASSETS/img prueba gratis/TWF.png" alt="twf"></div>
+          <div class="desplegable offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
@@ -49,48 +51,50 @@
                     Categorias
                   </a>
                   <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="./categoria-pelicula.html">Drama</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="./error-404.html">Accion</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="./error-404.html">Animacion</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="./error-404.html">Terror</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="./error-404.html">Comedia</a>
-                    </li>
+                    <li><a class="dropdown-item" href="./categoria-pelicula.html">Drama</a></li>
+                    <li><a class="dropdown-item" href="./error-404.html">Accion</a></li>
+                    <li><a class="dropdown-item" href="./error-404.html">Animacion</a></li>
+                    <li><a class="dropdown-item" href="./error-404.html">Terror</a></li>
+                    <li><a class="dropdown-item" href="./error-404.html">Comedia</a></li>
                   </ul>
                 </li>
               </ul>
               <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
-                <button class="btn btn-secondary" type="submit">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-search"
-                    viewBox="0 0 16 16">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-secondary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                    fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path
                       d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                  </svg>
-                </button>
+                  </svg></button>
               </form>
+              <br>
+              <ul class="nav-footer navbar-nav justify-content-end flex-grow-1 pe-3">
+                <hr class="dropdown-divider">
+                <li class="nav-item">
+                  <a class="nav-link" href="./error-404.html">Ayuda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./sobre-nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./error-404.html">Politica de Privacidad</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </nav>
     </section>
   </header>
-
   <main>
     <section class="peliculas">
       <section class="titulo rounded-4">
-        <h1>Drama</h1>
+        <img src="../ASSETS/img categoria pelicula 1/drama1.png" alt="drama">
       </section>
-
-      <section class="paginas d-flex justify-content-center">
+      <section class="paginas  d-flex justify-content-center">
         <nav aria-label="page navigation ">
           <ul class="pagination ">
             <li class="page-item disabled">
@@ -99,7 +103,6 @@
             <li class="page-item disabled">
               <a class="page-link text-info" href="./categoria-pelicula.html" tabindex="-1" aria-disabled="true">1</a>
             </li>
-
             <li class="page-item"><a class="page-link text-secondary-emphasis" href="./categoria-pelicula-2.html">2</a>
             </li>
             <li class="page-item"><a class="page-link text-secondary-emphasis" href="./error-404-gratis.html">3</a></li>
@@ -109,19 +112,11 @@
           </ul>
         </nav>
       </section>
-
-      <section class="cards1 rounded-4  ">
-
+      <section class="cards1 gap-5 rounded-4  ">
         <div class="card2 rounded-4">
           <img src="../ASSETS/img top 3/napoleon.jpg" class=" rounded-4" alt="banner napoleon" />
           <div class="card-body">
             <h5 class="card-title">Napoleon</h5>
-            <p class="card-text">
-              Napoleon" (2023) es un drama histórico dirigido por Ridley Scott que explora la vida de Napoleón
-              Bonaparte. La película sigue su meteórico
-              ascenso al poder en Francia, sus victorias y derrotas en el campo de batalla, y su tumultuosa relación con
-              su esposa, Josefina...
-            </p>
             <p class="card-text">
               <small class="text-body-secondary">Año: 2015 - Duracion: 95 minutos</small>
             </p>
@@ -132,31 +127,18 @@
           <img src="../ASSETS/img categoria pelicula 1/Suenos de Fuga.webp" class=" rounded-4"
             alt="banner sueño de fuga" />
           <div class="card-body">
-            <h5 class="card-title">Sueños de fuga</h5>
-            <p class="card-text">
-              Andy Dufresne, condenado a cadena perpetua por un crimen que no
-              cometió, encuentra esperanza y amistad en la prisión. Su ingenio y
-              determinación le permiten transformar su vida y la de sus
-              compañeros de celda, demostrando que la esperanza es esencial para
-              sobrevivir.
-            </p>
+            <h5 class="card-title">Sueños De Fuga</h5>
             <p class="card-text">
               <small class="text-body-secondary">Año: 1994 Duración: 142 minutos
               </small>
             </p>
-            <a href="./error-404-gratis.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
+            <a href="./error-404.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
           </div>
         </div>
         <div class="card2 rounded-4">
           <img src="../ASSETS/img categoria pelicula 1/Forrest Gump.jpg" class=" rounded-4" alt="banner forrest gump" />
           <div class="card-body">
             <h5 class="card-title">Forrest Gump</h5>
-            <p class="card-text">
-              Forrest Gump, con un coeficiente intelectual bajo, vive eventos
-              históricos importantes con una perspectiva inocente. Su bondad y
-              lealtad impactan a todos los que conoce, demostrando que el amor y
-              la perseverancia pueden cambiar vidas.
-            </p>
             <p class="card-text">
               <small class="text-body-secondary">Año 1994 Duración: 142 minutos</small>
             </p>
@@ -168,118 +150,89 @@
           <div class="card-body">
             <h5 class="card-title">El Padrino</h5>
             <p class="card-text">
-              La saga de la familia Corleone, dirigida por Don Vito, explora el
-              poder, la lealtad y la traición en el mundo de la mafia. La
-              complejidad de los personajes y las intrigas familiares destacan
-              la lucha por el control y la influencia en el crimen organizado.
-            </p>
-            <p class="card-text">
-              <small class="text-body-secondary"></small>
-              Año 1972 Duración: 175 minutos
+              <small class="text-body-secondary">Año 1972 Duración: 175 minutos
               </small>
             </p>
-            <a href="./error-404-gratis.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
+            <a href="./error-404.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
           </div>
         </div>
       </section>
-      <!-- ----------------------------------------------------------------------------------------------- -->
       <section class="banner "><img class="rounded-4" src="../ASSETS/img categoria pelicula 1/drama.webp"
           alt="banner de drama">
       </section>
-      <!-- ------------------------------------------------------------------------------------------------ -->
-      <section class="cards1 rounded-4">
+      <section class="cards1 gap-5 rounded-4">
         <div class="card2 rounded-4">
           <img src="../ASSETS/img categoria pelicula 1/La lista de Schindler.jpg" class="rounded-4"
             alt="baner la lista de shindler" />
           <div class="card-body">
-            <h5 class="card-title">La lista de Schindler</h5>
-            <p class="card-text">
-              Oskar Schindler salva a más de mil judíos del Holocausto
-              empleándolos en su fábrica. La película muestra su transformación
-              de un empresario oportunista a un héroe humanitario, ofreciendo un
-              conmovedor testimonio de valentía en tiempos de barbarie.
-            </p>
-            <p class="card-text">
+            <h5 class="card-title ">La Lista De Schindler</h5>
+
+            <p class=" card-text">
               <small class="text-body-secondary">Año 1993 Duración: 195 minutos</small>
             </p>
-            <a href="#" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
+            <a href="./error-404.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
           </div>
         </div>
         <div class="card2 rounded-4">
           <img src="../ASSETS/img categoria pelicula 1/Milagros Inesperados.jfif" class="rounded-4"
             alt="baner milagros inesperados" />
           <div class="card-body">
-            <h5 class="card-title">Milagros inesperados</h5>
-            <p class="card-text">
-              En el corredor de la muerte, el guardia Paul Edgecomb descubre que un prisionero condenado, John Coffey,
-              posee habilidades sobrenaturales. La historia explora la moralidad y la justicia mientras los eventos
-              extraordinarios desafían las creencias sobre el bien y el mal.
-            </p>
+            <h5 class="card-title">Milagros Inesperados</h5>
             <p class="card-text">
               <small class="text-body-secondary">Año: 1999 Duración: 189 minutos
               </small>
             </p>
-            <a href="./error-404-gratis.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
+            <a href="./error-404.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
           </div>
         </div>
         <div class="card2 rounded-4">
           <img src="../ASSETS/img categoria pelicula 1/Una Mente Brillante.jpg" class="rounded-4"
             alt="baner una mente brillante" />
           <div class="card-body">
-            <h5 class="card-title">Una mente brillante</h5>
-            <p class="card-text">
-              La vida del matemático John Nash, que lucha contra la esquizofrenia mientras realiza avances
-              revolucionarios. A pesar de sus desafíos mentales, Nash encuentra amor y reconocimiento, destacando la
-              resiliencia humana y la brillantez intelectual.
-            </p>
+            <h5 class="card-title">Una Mente Brillante</h5>
             <p class="card-text">
               <small class="text-body-secondary">Año: 2001 Duración: 135 minutos</small>
             </p>
-            <a href="#" class="d-flex justify-content-center btn btn-secondary">Mirar</a>
+            <a href="./error-404.html" class="d-flex justify-content-center btn btn-secondary">Mirar</a>
           </div>
         </div>
         <div class="card2 rounded-4">
           <img src="../ASSETS/img categoria pelicula 1/12 Anos de Esclavitud.jpg" class="rounded-4"
             alt="baner doce años de esclavitud" />
           <div class="card-body">
-            <h5 class="card-title">12 años de esclavitud</h5>
-            <p class="card-text">
-              Solomon Northup, un hombre libre, es secuestrado y vendido como esclavo en el sur de Estados Unidos. La
-              película narra su angustiosa lucha por recuperar su libertad y ofrece una poderosa representación de la
-              brutalidad y la resistencia en tiempos de esclavitud.
-            </p>
+            <h5 class="card-title">12 Años De Esclavitud</h5>
             <p class="card-text">
               <small class="text-body-secondary">Año: 2013 Duración: 134 minutos
               </small>
             </p>
-            <a href="./error-404-gratis.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
+            <a href="./error-404.html" class="boton d-flex justify-content-center btn btn-secondary">Mirar</a>
           </div>
         </div>
       </section>
-    </section>
-    <section class="d-flex justify-content-center">
-      <nav aria-label="page navigation ">
-        <ul class="pagination ">
-          <li class="page-item disabled">
-            <a class="page-link" href="./categoria-pelicula.html" tabindex="-1" aria-disabled="true">Anterior</a>
-          </li>
-          <li class="page-item disabled">
-            <a class="page-link text-info" href="./categoria-pelicula.html" tabindex="-1" aria-disabled="true">1</a>
-          </li>
-
-          <li class="page-item"><a class="page-link text-secondary-emphasis" href="./categoria-pelicula-2.html">2</a>
-          </li>
-          <li class="page-item"><a class="page-link text-secondary-emphasis" href="./error-404-gratis.html">3</a></li>
-          <li class="page-item">
-            <a class="page-link text-secondary-emphasis" href="./categoria-pelicula-2.html">Siguiente</a>
-          </li>
-        </ul>
-      </nav>
+      <section class="paginas d-flex justify-content-center">
+        <nav aria-label="page navigation ">
+          <ul class="pagination ">
+            <li class="page-item disabled">
+              <a class="page-link" href="./categoria-pelicula.html" tabindex="-1" aria-disabled="true">Anterior</a>
+            </li>
+            <li class="page-item disabled">
+              <a class="page-link text-info" href="./categoria-pelicula.html" tabindex="-1" aria-disabled="true">1</a>
+            </li>
+            <li class="page-item"><a class="page-link text-secondary-emphasis" href="./categoria-pelicula-2.html">2</a>
+            </li>
+            <li class="page-item"><a class="page-link text-secondary-emphasis" href="./error-404-gratis.html">3</a></li>
+            <li class="page-item">
+              <a class="page-link text-secondary-emphasis" href="./categoria-pelicula-2.html">Siguiente</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </section>
     <footer>
       <section class="footer1 d-flex justify-content-around align-items-center">
         <div class="rotacion-imagen">
-          <img class="rotacion-imagen-imagen" src="../ASSETS/LOGO TWF.png" alt="" />
+          <a href="./categoria-pelicula.html"><img class="rotacion-imagen-imagen" src="../ASSETS/LOGO TWF.png"
+              alt="logo" /></a>
         </div>
         <div class="footer-redes d-lg-flex">
           <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook"

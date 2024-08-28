@@ -2,34 +2,37 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../CSS/navbar-sobre-nosotros.css">
+
+  <meta charset="UTF-8" />
+  <meta name="author" content="Alumnos RollingCode" />
+  <meta name="description" content="Plataforma streaming gratuita donde ver clásicos" />
+  <meta name="keywords" content="Ver online, Streaming, TV, Peliculas gratis, Series gratis, Juego de tronos" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html" />
+
+  <link rel="shortcut icon" href="../ASSETS/LOGO TWF.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="../CSS/navbar-cartelera.css">
   <link rel="stylesheet" href="../CSS/sobre-nosotros.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  <title></title>
+  <title>TwF - Sobre Nosotros</title>
 </head>
 
 <body>
   <header>
-    <section class="header1 ">
-      <nav class="navbar fixed-top ">
-        <div class="container-fluid d-flex align-items-center justify-content-start m-3 ">
-          <a class="navbar-brand" href="#"><img src="../ASSETS/LOGO TWF.png" alt=""></a>
+    <section class="header1 fixed-top ">
+      <nav class="navbar  ">
+
+        <div class="navbar2 container-fluid d-flex align-items-center justify-content-between m-3 ">
           <button class="custom-navbar1 navbar-toggler" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" fill="currentColor" class="bi bi-card-list"
-              viewBox="0 0 16 16">
-              <path
-                d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z" />
-              <path
-                d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8m0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
-            </svg>
+            <img src="../ASSETS/LOGO TWF.png" alt="logo">
 
           </button>
-          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+          <div class="twf"><img src="../ASSETS/img prueba gratis/TWF.png" alt="twf"></div>
+          <div class="desplegable offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
@@ -40,6 +43,7 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="./error-404.html"><b>Perfil</b></a>
                 </li>
+
                 <li class="nav-item">
                   <a class="nav-link" href="./cartelera.html">Inicio</a>
                 </li>
@@ -58,6 +62,7 @@
                   </ul>
                 </li>
               </ul>
+
               <form class="d-flex mt-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                 <button class="btn btn-secondary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="30"
@@ -66,6 +71,20 @@
                       d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                   </svg></button>
               </form>
+              <br>
+              <ul class="nav-footer navbar-nav justify-content-end flex-grow-1 pe-3">
+                <hr class="dropdown-divider">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./error-404.html">Ayuda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./error-404.html">Politica de Privacidad</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -73,100 +92,102 @@
     </section>
   </header>
   <main class="">
-    <section class="sobre-nosotros rounded-4 ">
-      <section class="container-1 col  rounded-4">
-        <div class=" d-flex align-items-center justify-content-center ">
-          <img src="../ASSETS/LOGO TWF.png" alt="imagenlogoempresa" />
-        </div>
-        <p class="m-5">
-          <b>The World Films</b> es una empresa líder en la industria cinematográfica, dedicada a brindar experiencias
-          inolvidables a los amantes del séptimo arte. Con una amplia trayectoria en el sector, nuestra misión es
-          convertir cada visita a nuestros cines en un momento único, combinando la magia del cine con la comodidad y
-          tecnología de vanguardia.
-          En <b>The World Films</b>, creemos que el cine es más que entretenimiento: es una forma de arte que inspira,
-          emociona y conecta a las personas. Por ello, nos esforzamos en ofrecer una experiencia completa, desde la
-          selección de las películas más aclamadas y esperadas, hasta la creación de espacios cómodos y modernos donde
-          nuestros espectadores puedan disfrutar al máximo. <br>
-          Por que en The World Films encontraras
-        </p>
-        <h4><b>"El cine del mundo, en un solo lugar "</b></h4>
+    <section class="logo1">
+      <section class="logo2 rounded-4">
+        <img src="../ASSETS/img sobre nosotros/sobre nosotros.png" alt="sobre nosotros">
       </section>
+    </section>
+    <section class="cuerpo text-light">
+      <section class="sobre-nosotros rounded-4 ">
+        <section class="container-1 col  rounded-4">
+          <div class=" d-flex align-items-center justify-content-center ">
+            <img src="../ASSETS/LOGO TWF.png" alt="imagenlogoempresa" />
+          </div>
+          <p class="m-2 text-center">
+            <b>The World Films</b> es una empresa líder en la industria cinematográfica, dedicada a brindar experiencias
+            inolvidables a los amantes del séptimo arte. Con una amplia trayectoria en el sector, nuestra misión es
+            convertir cada visita a nuestros cines en un momento único, combinando la magia del cine con la comodidad y
+            tecnología de vanguardia.
+            En <b>The World Films</b>, creemos que el cine es más que entretenimiento: es una forma de arte que inspira,
+            emociona y conecta a las personas. Por ello, nos esforzamos en ofrecer una experiencia completa, desde la
+            selección de las películas más aclamadas y esperadas, hasta la creación de espacios cómodos y modernos donde
+            nuestros espectadores puedan disfrutar al máximo. <br>
+            Por que en The World Films encontraras..
+          </p>
+          <h4 class="m-3 text-center"><b>"El cine del mundo, en un solo lugar "</b></h4>
+        </section>
 
-      <section class="container-2 rounded-4 ">
-        <h1 class="m-5">Quienes Somos</h1>
-        <section class="d-flex flex-column  align-items-center flex-wrap b-5">
-          <!--  -->
-          <article class="integrante1 row w-75 d-flex align-items-center  ">
-            <div class="col-md-6 text-end">
-              <img src="../ASSETS/img sobre nosotros/avatar1.jpeg" alt="Escalerita" class=" rounded-4">
-            </div>
-            <div class="col-md-6 text-end">
-              <h3>Alejo Fernandez</h3>
-              <p>Tengo 18 años y soy responsable de la Busqueda de Informacion
-                de la pagina, mis tareas como Desarrollador fueron: main
-                sobre nosotros, main categoria de pelicula y navbar cartelera
-              </p>
-              <p class="card-text"><small class="text-body-secondary">Tucuman-Argentina</small></p>
-            </div>
-          </article>
-          <!--  -->
-          <article class="integrante2 row w-75 d-flex align-items-center m-5">
-            <div class="col-md-6 text-start">
-              <h3>Tobias Morienega</h3>
-              <p>De 20 años y estoy a cargo del Contenido Audiovisual de la pagina, como desarrollador trabaje sobre:
-                el main
-                detalle de pelicula, navbar gratis y pagina inicio de sesion.
-              </p>
-              <p class="card-text"><small class="text-body-secondary">Tucuman-Argentina</small></p>
-            </div>
-            <div class="col-md-6 text-start">
-              <img src="../ASSETS/img sobre nosotros/avatar2.jpeg" alt="Escalerita" class="img-fluid rounded-4">
-            </div>
-          </article>
-          <!--  -->
-          <article class="integrante1 row w-75 d-flex align-items-center  ">
-            <div class="col-md-6 text-end">
-              <img src="../ASSETS/img sobre nosotros/avatar3.jpeg" alt="Escalerita" class=" rounded-4">
-            </div>
-            <div class="col-md-6 text-end">
-              <h3>Martin Calvimonte</h3>
-              <p>Al dia de hoy tengo 36 años y me desempeñe tanto de Product Owner como asi
-                tambien de Scraum Master,
-                de Desarrollador realice las tareas: de main prueba gratis, carrusell y footer.
-              </p>
-              <p class="card-text"><small class="text-body-secondary">Cordoba-Argentina</small></p>
-            </div>
-          </article>
-          <!--  -->
-          <article class="integrante4 row w-75 d-flex align-items-center m-5">
-            <div class="col-md-6 text-start">
-              <h3>Jose Manuel Carrasco</h3>
-              <p>Con 26 años, soy el encargado del control de versiones en Git GitHub y de subir la pagina a Netlify,
-                mi trabajo de Desarrollador fue: el main contacto, main
-                detalle
-                de pelicula y pagina index.
-              </p>
-              <p class="card-text"><small class="text-body-secondary">Madrid-España</small></p>
-            </div>
-            <div class="col-md-6 text-start">
-              <img src="../ASSETS/img sobre nosotros/avatar4.jpeg" alt="Escalerita" class="img-fluid rounded-4">
-            </div>
-          </article>
-          <!--  -->
-          <article class="integrante1 row w-75 d-flex align-items-center  ">
-            <div class="col-md-6 text-end">
-              <img src="../ASSETS/img sobre nosotros/avatar5.jpeg" alt="Escalerita" class=" rounded-4">
-            </div>
-            <div class="col-md-6 text-end">
-              <h3>Juan Andres Stegmayer</h3>
-              <p>Soy un joven de 27 años, responsable del Diseño de la Pagina, ahora como Desarrollador trabaje sobre:
-                el main
-                registro,
-                main cartelera y navbar registro.
-              </p>
-              <p class="card-text"><small class="text-body-secondary">Tucuman-Argentina</small></p>
-            </div>
-          </article>
+        <section class="container-2 rounded-4 ">
+          <h1 class="">Quienes Somos</h1>
+          <section class="d-flex flex-column  align-items-center flex-wrap m-2">
+            <article class="integrante1 row w-75 d-flex align-items-center m-2  ">
+              <div class="col-md-6 text-end">
+                <img src="../ASSETS/img sobre nosotros/avatar1.jpeg" alt="Escalerita" class=" rounded-4">
+              </div>
+              <div class="col-md-6 text-end">
+                <h3>Alejo Fernandez</h3>
+                <p>Tengo 18 años y soy responsable de la Busqueda de Informacion
+                  de la pagina, mis tareas como Desarrollador fueron: main
+                  sobre nosotros, main categoria de pelicula y navbar cartelera
+                </p>
+                <p class="card-text text-light"><small class="text-body-light">Tucuman-Argentina</small></p>
+              </div>
+            </article>
+            <article class="integrante2 row w-75 d-flex align-items-center m-2">
+              <div class="col-md-6 text-start">
+                <h3>Tobias Morienega</h3>
+                <p>De 20 años y estoy a cargo del Contenido Audiovisual de la pagina, como desarrollador trabaje sobre:
+                  el main
+                  detalle de pelicula, navbar gratis y pagina inicio de sesion.
+                </p>
+                <p class="card-text text-light"><small class="text-body-light">Tucuman-Argentina</small></p>
+              </div>
+              <div class="col-md-6 text-start">
+                <img src="../ASSETS/img sobre nosotros/avatar2.jpeg" alt="Escalerita" class="img-fluid rounded-4">
+              </div>
+            </article>
+            <article class="integrante1 row w-75 d-flex align-items-center m-2  ">
+              <div class="col-md-6 text-end">
+                <img src="../ASSETS/img sobre nosotros/avatar3.jpeg" alt="Escalerita" class=" rounded-4">
+              </div>
+              <div class="col-md-6 text-end">
+                <h3>Martin Calvimonte</h3>
+                <p>Al dia de hoy tengo 36 años y me desempeñe tanto de Product Owner como asi
+                  tambien de Scraum Master,
+                  de Desarrollador realice las tareas: de main prueba gratis, carrusell y footer.
+                </p>
+                <p class="card-text text-light"><small class="text-body-light">Cordoba-Argentina</small></p>
+              </div>
+            </article>
+            <article class="integrante4 row w-75 d-flex align-items-center m-2">
+              <div class="col-md-6 text-start">
+                <h3>Jose Manuel Carrasco</h3>
+                <p>Con 26 años, soy el encargado del control de versiones en Git GitHub y de subir la pagina a Netlify,
+                  mi trabajo de Desarrollador fue: el main contacto, main
+                  detalle
+                  de pelicula y pagina index.
+                </p>
+                <p class="card-text text-light"><small class="text-body-light">Madrid-España</small></p>
+              </div>
+              <div class="col-md-6 text-start">
+                <img src="../ASSETS/img sobre nosotros/avatar4.jpeg" alt="Escalerita" class="img-fluid rounded-4">
+              </div>
+            </article>
+            <article class="integrante1 row w-75 d-flex align-items-center m-2 ">
+              <div class="col-md-6 text-end">
+                <img src="../ASSETS/img sobre nosotros/avatar5.jpeg" alt="Escalerita" class=" rounded-4">
+              </div>
+              <div class="col-md-6 text-end">
+                <h3>Juan Andres Stegmayer</h3>
+                <p>Soy un joven de 27 años, responsable del Diseño de la Pagina, ahora como Desarrollador trabaje sobre:
+                  el main
+                  registro,
+                  main cartelera y navbar registro.
+                </p>
+                <p class="card-text "><small class="text-body-light">Tucuman-Argentina</small></p>
+              </div>
+            </article>
+          </section>
         </section>
       </section>
   </main>

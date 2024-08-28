@@ -1,4 +1,3 @@
-/* PELICULA */
 * {
   margin: 0;
   padding: 0;
@@ -6,27 +5,38 @@
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .logo1 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo2 {
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 95%;
+      background-color: black;
+      img {
+        width: 30%;
+      }
+    }
+  }
   .main {
+    margin: 50px 0px;
     width: 95%;
-    margin-top: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(
-      180deg,
-      rgb(186, 90, 206) 0%,
-      rgba(157, 106, 3, 0) 72%
-    );
+    background-color: black;
     .container {
-      margin-top: 80px;
       .container-1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         .pelicula {
           position: relative;
           width: 100%;
           padding-top: 56.25%;
-          height: 0;
+
           overflow: hidden;
           iframe {
             position: absolute;
@@ -41,9 +51,12 @@ main {
       .container-2 {
         display: flex;
         flex-wrap: wrap;
-        .tailer {
+        color: white;
+        .trailer {
         }
         iframe {
+          width: 100%;
+          height: 300px;
         }
       }
 
@@ -57,12 +70,12 @@ main {
 
 @media (max-width: 768px) {
   .grid-container1 {
-    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas  */
+    grid-template-columns: 1fr;
   }
 }
 
 .grid-item {
-  min-width: 300px; /* Mínimo ancho antes de apilar  */
+  min-width: 300px;
 }
 
 .iframe-container-trailer {
