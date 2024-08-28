@@ -104,7 +104,6 @@ body {
 
         .rotacion-imagen-imagen {
           width: 200px;
-
           animation: rotacion-imagen-imagen 5s infinite linear;
           animation-delay: 1s;
         }

@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 main {
   display: flex;
   justify-content: center;
@@ -5,7 +9,6 @@ main {
   flex-direction: column;
   .logo1 {
     margin-top: 150px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +30,6 @@ main {
     width: 95%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: black;
-
     .container {
       .container-1 {
         .pelicula {
@@ -68,12 +70,12 @@ main {
 
 @media (max-width: 768px) {
   .grid-container1 {
-    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas  */
+    grid-template-columns: 1fr;
   }
 }
 
 .grid-item {
-  min-width: 300px; /* Mínimo ancho antes de apilar  */
+  min-width: 300px;
 }
 
 .iframe-container-trailer {

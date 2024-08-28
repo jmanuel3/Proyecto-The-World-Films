@@ -24,7 +24,6 @@ body {
     .contacto {
       padding: 15px;
       margin-bottom: 50px;
-
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -50,7 +49,6 @@ body {
     .footer1 {
       .rotacion-imagen-imagen {
         width: 200px;
-
         animation: rotacion-imagen-imagen 5s infinite linear;
         animation-delay: 1s;
       }

@@ -11,18 +11,20 @@ body {
         object-fit: cover;
         object-position: center;
       }
-      .caja {
-        background: linear-gradient(
-          180deg,
-          rgb(0, 0, 0) 0%,
-          rgba(0, 0, 0, 0.377) 72%
-        );
-      }
-      .btn {
-        a {
-          color: black;
-          text-decoration: none;
-          list-style: none;
+      div {
+        .caja {
+          background: linear-gradient(
+            180deg,
+            rgb(0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.377) 72%
+          );
+        }
+        .btn {
+          a {
+            color: black;
+            text-decoration: none;
+            list-style: none;
+          }
         }
       }
     }
